@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 response = open('./json/response.json')
 data = json.load(response)
 sar = data['sentiment_analysis_results']
-# save sentiment data to datafram for ease of visualization
+# save sentiment data to dataframe for ease of visualization
 sen_df = pd.DataFrame(sar)
 
 ## body
