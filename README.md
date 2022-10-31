@@ -1,14 +1,12 @@
 # Sentiment Analysis of an Earnings Call
 
-## Description
+This application shows an example of how you can use AssemblyAI's [Sentiment Analysis](https://www.assemblyai.com/blog/introducing-sentiment-analysis/) model to identify and visually display information on the sentiments expressed in a corporate earnings call.
 
-This application shows how you can use AssemblyAI's powerful [Sentiment Analysis](https://www.assemblyai.com/blog/introducing-sentiment-analysis/) model to identify and visually display information on the sentiments expressed in a corporate earnings call.
+To follow along step-by-step, checkout [this YouTube tutorial](https://youtu.be/kBoe56CfugY) to learn how to build an expanded version of this application that will allow you to perform similar Sentiment Analysis visualization on YouTube videos.
 
 ![Preview](screenshot.png)
 
-Check out [this tutorial](https://youtu.be/kBoe56CfugY) to learn how to build an expanded version of this application that will allow you to perform similar Sentiment Analysis visualization on YouTube videos.
-
-## To Run
+## Quick Setup
 
 * Download project files by running `git clone https://github.com/AssemblyAI/sentiment-analysis-on-earnings-call`
 * Navigate to the project folder
@@ -18,12 +16,15 @@ Check out [this tutorial](https://youtu.be/kBoe56CfugY) to learn how to build an
 
 ## How it Works
 
-The application works by taking data from a JSON file that was created by [submitting a audio file](https://www.assemblyai.com/docs/audio-intelligence#sentiment-analysis) to the AssemblyAI API for transcription with `sentiment_analysis` set to `true`. That data is used to create visualizations like a the number of sentences identified with each sentiment, an indicator showing where each sentiment occurred in the audio file, and an overall Sentiment Score for the call.
-
-You can view the results for a file you have submitted to the API with `sentiment_analysis` set to `true` by replacing the `response.json` file in the `json` folder with the JSON response from your request.
+The application works by taking data from a JSON file that was created by submitting an audio file to the AssemblyAI Transcription API for with `sentiment_analysis` set to `true`. That data is used to create visualizations like the number of sentences identified with each sentiment, an indicator showing where each sentiment occurred in the audio file, and an overall Sentiment Score for the call.
 
 ## Main Dependencies
 
 * [Streamlit](https://pypi.org/project/streamlit/) The fastest way to build data apps in Python
 * [Pandas](https://pypi.org/project/pandas/) Powerful data structures for data analysis, time series, and statistics
 * [Plotly](https://pypi.org/project/plotly/) An open-source, interactive data visualization library for Python
+
+
+Contact Us
+--
+If you have any questions, please feel free to reach out to our Support team - support@assemblyai.com!
