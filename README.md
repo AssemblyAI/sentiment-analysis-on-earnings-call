@@ -2,7 +2,7 @@
 
 This application shows an example of how you can use AssemblyAI's [Sentiment Analysis](https://www.assemblyai.com/blog/introducing-sentiment-analysis/) model to identify and visually display information on the sentiments expressed in a corporate earnings call.
 
-To follow along step-by-step, checkout [this YouTube tutorial](https://youtu.be/kBoe56CfugY) to learn how to build an expanded version of this application that will allow you to perform similar Sentiment Analysis visualization on YouTube videos.
+To follow along step-by-step, check out [this YouTube tutorial](https://youtu.be/kBoe56CfugY) to learn how to build an expanded version of this application that will allow you to perform similar Sentiment Analysis on your audio files.
 
 ![Preview](screenshot.png)
 
